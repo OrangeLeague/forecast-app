@@ -1,0 +1,19 @@
+:root {
+  --primary: #2a3b8f;
+  --secondary: #4CAF50;
+  --background: #f8f9fa;
+  --text: #333;
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+.header { background: linear-gradient(135deg, var(--primary), #1a237e); color: white; padding: 2rem; border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.form-container, .card { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 2rem; }
+.input-group { margin-bottom: 1.5rem; }
+label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+input { width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem; }
+.btn { background: var(--primary); color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease; }
+.dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+.chart-container { position: relative; height: 300px; margin-top: 2rem; }
+.alert { padding: 1rem; border-radius: 5px; margin-bottom: 1rem; }
+.alert-warning { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
+.alert-success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
